@@ -43,7 +43,7 @@ Users should be able to:
 
 ## Demo
 
-You can check out a live demo of this website [here](https://xcordeva.github.io/FrontEndMentor-Challenges/age-calculator-app/).
+You can check out a live demo of this website [Click here](https://xcordeva.github.io/age-calculator-app-FrontendmentorChallenges).
 
 
 ## Features
