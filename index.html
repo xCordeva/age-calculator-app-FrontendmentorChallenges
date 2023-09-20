@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="input-field">
+        <p class="day-p">DAY</p>
+        <input class="input" type="tel" placeholder="DD" maxlength="2" data-type="day">
+        <span class="error js-day-required">This field is required</span>
+        <span class="error js-day-valid">Must be a valid day</span>
+      </div>
+      <div class="input-field">
+        <p class="month-p">MONTH</p>
+        <input class="input" type="tel" placeholder="MM" maxlength="2" data-type="month">
+        <span class="error js-month-required">This field is required</span>
+        <span class="error js-month-valid">Must be a valid month</span>
+      </div>
+      <div class="input-field">
+        <p class="year-p">YEAR</p>
+        <input class="input" type="tel" placeholder="YYYY" maxlength="4" data-type="year">
+        <span class="error js-year-required">This field is required</span>
+        <span class="error js-year-valid">Must be in the past</span>
+      </div>
+    </div>
+    <div class="break">
+      <div class="line"></div>
+      <img class="calculate" src="./assets/images/icon-arrow.svg" alt="icon-arrow">
+    </div>
+    <div class="results-container">
+      <div class="results-line">
+        <h1 class="results year-result">--</h1>
+        <h1>years</h1>
+      </div>
+      <div class="results-line">
+        <h1 class="results month-result">--</h1>
+        <h1>months</h1>
+      </div>
+      <div class="results-line">
+        <h1 class="results day-result">--</h1>
+        <h1>days</h1>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="credit">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/xCordeva">Cordeva</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
